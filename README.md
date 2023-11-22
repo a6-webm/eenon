@@ -1,11 +1,11 @@
 # eenon
 ### An IOU balancer
 Given a .csv file formated something like this:
-```
-Timestamp | Spender  | Who is it for?        | What you bought | Cost ($)
-18th June | Bob      | Cameron, Jemimah, Bob | Pizza           | 27
-19th June | Josefine | Bob                   | Ben & Jerry's   | 4.48
-```
+| Timestamp | Spender  | Who is it for?        | What you bought | Cost ($) |
+|-----------|----------|-----------------------|-----------------|----------|
+| 18th June | Bob      | Cameron, Jemimah, Bob | Pizza           | 27       |
+| 19th June | Josefine | Bob                   | Ben & Jerry's   | 4.48     |
+
 eenon will tell you this:
 ```
 Bob owes Josefine 4.48
