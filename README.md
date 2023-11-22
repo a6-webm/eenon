@@ -1,6 +1,6 @@
 # eenon
 ### An IOU balancer
-Given a .csv file formated something like this:
+Given a .csv file containing something like this:
 | Timestamp | Spender  | Who is it for?        | What you bought | Cost ($) |
 |-----------|----------|-----------------------|-----------------|----------|
 | 18th June | Bob      | Cameron, Jemimah, Bob | Pizza           | 27       |
