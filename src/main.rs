@@ -42,7 +42,7 @@ fn main() -> Result<(), Box<dyn Error>> {
         let Some((ower, owee, amt)) = resolve_owe(&owes, &pair[0], &pair[1]) else {
             continue;
         };
-        println!("{ower} owes {owee} £{:.2}", amt);
+        println!("{ower} owes {owee} {:.2}", amt);
     }
     Ok(())
 }
